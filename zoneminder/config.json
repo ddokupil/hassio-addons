@@ -10,7 +10,11 @@
     "DIR_IMAGES": "/var/cache/zoneminder/images2",
     "DIR_SOUNDS": "/var/cache/zoneminder/sounds2",
     "DZM_CONFIG_DIR": "/config/addons_config/zoneminder",
-    "ZM_DIR_EVENTS": "/var/cache/zoneminder/events2"
+    "ZM_DIR_EVENTS": "/var/cache/zoneminder/events2",
+    "ZM_DB_HOST": "core-mariadb",
+    "ZM_DB_USER": "mariauser",
+    "ZM_DB_PASS": "mariapass",
+    "ZM_DB_NAME": "zm"
   },
   "image": "ghcr.io/alexbelgium/zoneminder-{arch}",
   "map": [
