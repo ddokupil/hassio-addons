@@ -16,7 +16,6 @@
     "ZM_DB_PASS": "mariapass",
     "ZM_DB_NAME": "zm"
   },
-  "image": "ghcr.io/alexbelgium/zoneminder-{arch}",
   "map": [
     "config:rw",
     "media:rw",
