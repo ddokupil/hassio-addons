@@ -35,7 +35,8 @@ RUN sed -i 's|/etc/zm.conf|/config/addons_config/zoneminder/zm.conf|g' /usr/loca
     && sed -i 's|/var/lib/mysql|/config/addons_config/zoneminder/mysql|g' /usr/local/bin/entrypoint.sh \
     && grep -rl '/var/lib/mysql' /etc | xargs sed -i 's|/var/lib/mysql|/config/addons_config/zoneminder/mysql|g'
 
-##################
+RUN ln -s /config/addons_config/zoneminder/zm.conf /etc/zm/zm.conf
+
 # 3 Install apps #
 ##################
 
